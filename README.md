@@ -2,15 +2,11 @@
 
 An API application for retrieving information about GitHub repositories.
 
-## Requirements
+## Technologies Utilized
 - Spring Boot 3
+- Java 21
 - RESTful API
 - Integration with the GitHub API
-
-## Installation
-1. Clone the repository.
-2. Build the project using Maven.
-3. Run the application using `java -jar <jar-file>`.
 
 ## Endpoints
 - **GET /api/repository/{owner-login}**: Retrieve all repositories for a given GitHub user.
